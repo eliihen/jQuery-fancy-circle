@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="./css/circle.css">
+</head>
+<body>
+  <div class="container">
+    <a class="circlebutton" href="http://www.vg.no">
+      <div class="img-circle">
+          <img src="./img/limousine.jpg">
+        <div class="overlay1">
+          <br />
+          <br />
+          <span class="circle-header">Limousine</span>
+          <hr>
+          <p class="circle-para">
+            For special ocasions we will even be able to order a limo for you! Imagine that for a second!
+          </p>
+        </div>
+      </div> 
+    </a>
+  </div>
+  <script src="./js/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $(".img-circle").hover(
+        function(){
+          $(".overlay1").stop(true).animate(
+            {
+              "margin-top": -200,
+              "opacity": 0
+          
+            }, 500
+          );
+        },
+        function(){ 
+          $(".overlay1").animate(
+            {
+              "margin-top": -400,
+              "opacity": 0.6
+             
+            }, 500
+          );
+        })
+    });
+  </script>
+</body>
+</html>

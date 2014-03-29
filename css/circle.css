@@ -1,0 +1,38 @@
+.img-circle{
+  border-radius: 50%;
+
+  text-align: center;
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.img-circle img{
+  height: 240px;
+}
+.overlay1{
+  padding-right:20px;
+  padding-left:15px;
+  padding-top: 200px;
+  height: 400px;
+  width:210px;
+  background-color: #0c0c0c !important;
+  position: relative;
+  margin-top: -400px;
+  opacity: 0.6;
+}
+.container{
+  width: 240px;
+}
+
+
+/*Fonts*/
+.circle-header{
+  font-size:18px; 
+  color:white; 
+  font-weight:bold;
+}
+.circle-para{
+  font-size:12px; 
+  color:white;
+}
